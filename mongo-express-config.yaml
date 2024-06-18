@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-express-config
+  
+data:
+   mongo-url: mongo-service
+  # ME_CONFIG_BASICAUTH_USERNAME: admin  # Example: Change to your desired username
+  # ME_CONFIG_BASICAUTH_PASSWORD: password  # Example: Change to your desired password
+  # ME_CONFIG_MONGODB_SERVER: localhost  # MongoDB server address (assuming it's running on localhost)
+  # ME_CONFIG_MONGODB_PORT: "27017"  # MongoDB port
